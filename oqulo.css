@@ -13,7 +13,7 @@
 #section-1 {
     background-image: url("graphic bg.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:  cover;
     z-index: 1;
 }
 header {
