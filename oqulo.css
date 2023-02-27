@@ -1,29 +1,38 @@
 
 * {
     font-family: sans-serif;
-
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+section {
+    max-width: 1600px;
+    padding: 0 40px;
+    margin: 0 auto;
+    width: 100%;
 }
 .container {
-    max-width: 1600px;
+    max-width: 1170px;
     padding: 0 60px;
     margin: 0 auto;
     width: 100%;
     position: relative;
 }
 #section-1 {
-    background-image: url("graphic bg.png");
+    background-image: url("graphics.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 1;
+    background-size: contain;
+    z-index: 2;
+    position: relative;
 }
 header {
     position:relative;
     display: flex;
-    align-items: center;
     width: 100%;
 }
 header ul li {
     list-style-type: none;
+    color: #ffffff;
     padding: 0 10px;
     width: 33.33%;
 }
@@ -47,5 +56,5 @@ header ul {
     display: flex;
 }
 #section-2 {
-    z-index: 2;
+    z-index: 1;
 }
